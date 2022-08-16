@@ -1,13 +1,7 @@
 name: example-environment
-channels:
-  - conda-forge
 dependencies:
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - python==3.10
+  - mkl-service
+  - conda-forge::cxx-compiler
+  - pip:
+    - pycmtensor
